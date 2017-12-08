@@ -1,0 +1,23 @@
+{
+  "name": "bamazoncustomer",
+  "version": "1.0.0",
+  "description": "amazon like customer app",
+  "main": "customer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/db2147/bamazonCustomer.js.git"
+  },
+  "author": "David Bierma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/db2147/bamazonCustomer.js/issues"
+  },
+  "homepage": "https://github.com/db2147/bamazonCustomer.js#readme",
+  "dependencies": {
+    "inquirer": "^4.0.1",
+    "mysql": "^2.15.0"
+  }
+}
