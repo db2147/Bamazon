@@ -10,11 +10,12 @@ var connection = mysql.createConnection({
 });
 
 connection.connect(function(err){
-    console.log("Connected as id: "+connection.threadId);
+   if (err) throw err;
+   //run the start function after the connection is made to prompt the user
     start();
-})
+});
 
-function postAuction() {
+function start() {   // defined the start function
     // prompt for info about what is for sale
     inquirer
         .prompt([
@@ -70,27 +71,28 @@ function postAuction() {
         },
     ])
 }
-
-        validate: function(value) {
+        /*
+         validate: function(value) {
             if (isNaN(value) === false) {
             return true;
             }
             return false;
         }
-      }
-    ])
+        */
+      
         .then(function(answer) {
         // when finished prompting, insert a new item into the db with that info
         connection.query(
-        "INSERT INTO auctions SET ?",
+        "INSERT INTO products SET ?",
         {
-            item_name: answer.item,
-            category: answer.category,
-            starting_bid: answer.startingBid,
-            highest_bid: answer.startingBid
+            id: answer.id,
+            name: answer.name,
+            price: answer.price,
+             
         },
         function(err) {
             if (err) throw err;
             console.log("Your auction was created successfully!");
             // re-prompt the user for if they want to bid or post
             start();
+         
