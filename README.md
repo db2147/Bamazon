@@ -57,3 +57,15 @@ However, if your store does have enough of the product, you should fulfill the c
 This means updating the SQL database to reflect the remaining quantity.
 Once the update goes through, show the customer the total cost of their purchase.
 If this activity took you between 8-10 hours, then you've put enough time into this assignment. Feel free to stop here -- unless you want to take on the next challenge.
+
+------SCREENSHOTS-------
+
+![capture - copy](https://user-images.githubusercontent.com/31113045/34023584-515b99f2-e10b-11e7-9c03-95467726a2a2.PNG)
+
+![capture - copy](https://user-images.githubusercontent.com/31113045/34023671-ce0ca75c-e10b-11e7-83d2-3edf3c047519.PNG)
+
+![capture - copy](https://user-images.githubusercontent.com/31113045/34023739-23ca0590-e10c-11e7-99d7-a4578dcca571.PNG)
+
+![capture - copy](https://user-images.githubusercontent.com/31113045/34023796-70c9c4fc-e10c-11e7-9311-627b3b373561.PNG)
+
+![capture - copy](https://user-images.githubusercontent.com/31113045/34023839-a1375b68-e10c-11e7-9342-942dc7d1d853.PNG)
