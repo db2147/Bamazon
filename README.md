@@ -15,8 +15,6 @@ Bamazon is a command line app (CLI) which means it functions inside the code edi
 
 ![capture - copy](https://user-images.githubusercontent.com/31113045/34023739-23ca0590-e10c-11e7-99d7-a4578dcca571.PNG)
 
-![capture - copy](https://user-images.githubusercontent.com/31113045/34023796-70c9c4fc-e10c-11e7-9311-627b3b373561.PNG)
-
 ![capture - copy](https://user-images.githubusercontent.com/31113045/34023839-a1375b68-e10c-11e7-9342-942dc7d1d853.PNG)
 
 
