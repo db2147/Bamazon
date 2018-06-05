@@ -1,7 +1,6 @@
 # Bamazon
 This app is an Amazon-like storefront using the MySql database for storage.&nbsp; The app takes in orders from customers and depletes the store's inventory. 
 <br>
-<img src="images/mysql.png" alt="Drawing" style="width: 450px; float: right;" />
 Bamazon is a command line app (CLI) which means it functions inside the code editor and is not deployed to a browser.&nbsp; It utilizes the MYSQL and Inquirer npm packages as well.
 <br>
 <br>
